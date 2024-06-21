@@ -1,0 +1,98 @@
+body {
+  background-color: rgb(221, 212, 212);
+}
+header {
+  padding: 10px 0;
+  background-attachment: fixed;
+  background-color: rgb(50, 66, 105);
+}
+.container {
+  margin: 0 auto;
+  max-width: 1400px;
+  width: 100%;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h1 {
+  color: #ffffff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 30px */
+}
+.rightdiv {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+a {
+  color: #ffffff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.fa-user {
+  width: 30px;
+  color: #ffffff;
+}
+.fa-ticket {
+  width: 55px;
+  color: #ffffff;
+}
+.input {
+  width: 750px;
+  border-radius: 10px;
+  font-size: 19px;
+  background-color: rgb(183, 180, 190);
+}
+::placeholder {
+  padding: 2px 8px;
+}
+
+.flex1 {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.categories {
+  color: #ffffff;
+  font-size: 40px;
+}
+.categories:hover {
+  color: #ac8989;
+
+  transition-timing-function: linear;
+}
+.flex2 {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.bta1 {
+  font-size: 28px;
+  color: #e04507;
+}
+.bta2 {
+  font-size: 28px;
+  color: #ffffff;
+}
+.bta3 {
+  font-size: 28px;
+  color: #ffffff;
+}
+
+.bta2:hover {
+  color: #ac8989;
+}
+.bta3:hover {
+  color: #ac8989;
+}
