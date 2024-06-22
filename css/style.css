@@ -79,6 +79,8 @@ a {
 .wrapper {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
 }
 
 img {
@@ -91,4 +93,9 @@ img:hover {
   -ms-transform: scale(1.1); /* IE 9 */
   -webkit-transform: scale(1.1); /* Safari 3-8 */
   transform: scale(1.1);
+}
+footer {
+  margin-top: 40px;
+  background-color: rgb(50, 66, 105);
+  height: 500px;
 }
