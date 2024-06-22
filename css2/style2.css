@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(221, 212, 212);
+  background-color: rgb(153, 151, 151);
 }
 header {
   padding: 10px 0;
@@ -91,4 +91,23 @@ a {
 }
 .bta3:hover {
   color: #ac8989;
+}
+.s-1 {
+  margin-top: 20px;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  width: 280px;
+  height: 380px;
+  flex-shrink: 0;
+  border-radius: 20px;
+}
+img:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
 }
