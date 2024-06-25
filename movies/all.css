@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(221, 212, 212);
+  background-color: rgb(153, 151, 151);
 }
 header {
   padding: 10px 0;
@@ -77,17 +77,11 @@ a {
   display: flex;
   justify-content: space-around;
 }
-.bta1 {
-  font-size: 28px;
-  color: #ffffff;
-}
-.bta2 {
-  font-size: 28px;
-  color: #ffffff;
-}
+.bta1,
+.bta2,
 .bta3 {
   font-size: 28px;
-  color: #e04507;
+  color: #ffffff;
 }
 .bta1:hover {
   color: #ac8989;
@@ -95,46 +89,12 @@ a {
 .bta2:hover {
   color: #ac8989;
 }
+.bta3:hover {
+  color: #ac8989;
+}
 .s-1 {
-  margin-top: 20px;
+  margin-top: 180px;
 }
-.wrapper {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 40px;
-}
-
-img {
-  width: 280px;
-  height: 380px;
-  flex-shrink: 0;
-  border-radius: 20px;
-}
-img:hover {
-  -ms-transform: scale(1.1); /* IE 9 */
-  -webkit-transform: scale(1.1); /* Safari 3-8 */
-  transform: scale(1.1);
-}
-
-.ss {
-  display: flex;
-  justify-content: center;
-  gap: 5px;
-}
-
-.div,
-.div1 {
-  margin-top: 20px;
-  width: 10px;
-  height: 10px;
-  border-radius: 50px;
-  border: 2px solid black;
-}
-.div1 {
-  background-color: black;
-}
-/* footer */
 footer {
   margin-top: 40px;
   background-color: rgb(50, 66, 105);
