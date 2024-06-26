@@ -82,21 +82,7 @@ a {
   display: flex;
   justify-content: space-around;
 }
-.bta1,
-.bta2,
-.bta3 {
-  font-size: 28px;
-  color: #ffffff;
-}
-.bta1:hover {
-  color: #ac8989;
-}
-.bta2:hover {
-  color: #ac8989;
-}
-.bta3:hover {
-  color: #ac8989;
-}
+
 .s-1 {
   margin-top: 100px;
 }
@@ -138,8 +124,8 @@ a {
 }
 
 img {
-  width: 480px;
-  height: 580px;
+  width: 540px;
+  height: 650px;
   flex-shrink: 0;
   border-radius: 20px;
 }
