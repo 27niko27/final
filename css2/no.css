@@ -1,6 +1,11 @@
 body {
   background-color: rgb(153, 151, 151);
 }
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 header {
   padding: 10px 0;
   background-attachment: fixed;
@@ -11,6 +16,15 @@ header {
   max-width: 1400px;
   width: 100%;
 }
+.categories {
+  color: #ffffff;
+  font-size: 40px;
+}
+.categories:hover {
+  color: #ac8989;
+
+  transition-timing-function: linear;
+}
 .flex {
   display: flex;
   justify-content: space-between;
@@ -19,7 +33,7 @@ header {
 h1 {
   color: #ffffff;
   text-align: center;
-  font-family: Inter;
+  font-family: roboto;
   font-size: 25px;
   font-style: normal;
   font-weight: 400;
@@ -63,58 +77,30 @@ a {
   align-items: center;
   flex-direction: column;
 }
-.categories {
-  color: #ffffff;
-  font-size: 40px;
-}
-.categories:hover {
-  color: #ac8989;
 
-  transition-timing-function: linear;
-}
-/* header */
-.s-1 {
-  margin-top: 20px;
-}
-.wrapper {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 40px;
-}
-
-img {
-  width: 280px;
-  height: 380px;
-  flex-shrink: 0;
-  border-radius: 20px;
-}
-img:hover {
-  -ms-transform: scale(1.1); /* IE 9 */
-  -webkit-transform: scale(1.1); /* Safari 3-8 */
-  transform: scale(1.1);
-}
-
-.ss {
+.flexx {
+  height: 100%;
   display: flex;
   justify-content: center;
-  gap: 5px;
+  flex-direction: column;
+  align-items: center;
+}
+section {
+  margin-top: 260px;
+}
+.No {
+  font-size: 30px;
+
+  color: #6d1c1c;
+}
+.fa-face-sad-tear {
+  font-size: 60px;
+  padding-top: 50px;
+  margin-bottom: 90px;
 }
 
-.div,
-.div1 {
-  margin-top: 20px;
-  width: 10px;
-  height: 10px;
-  border-radius: 50px;
-  border: 2px solid black;
-}
-.div1 {
-  background-color: black;
-}
-/* footer */
 footer {
-  margin-top: 40px;
+  margin-top: 90px;
   background-color: rgb(50, 66, 105);
   height: 300px;
 }
@@ -184,58 +170,4 @@ footer {
   font-size: 18px;
   color: #ffffff;
   line-height: 25px;
-}
-@media screen and (max-width: 1420px) {
-  .fa-user {
-    width: 20px;
-    color: #ffffff;
-  }
-  .fa-ticket {
-    width: 35px;
-    color: #ffffff;
-  }
-  .input {
-    width: 650px;
-    border-radius: 10px;
-    font-size: 19px;
-    background-color: rgb(183, 180, 190);
-  }
-  ::placeholder {
-    padding: 2px 8px;
-  }
-
-  .wrapper {
-    max-width: 80%;
-    gap: 50px;
-  }
-}
-@media screen and (max-width: 1335px) {
-  .flex {
-    justify-content: space-around;
-    gap: 10px;
-    width: 80%;
-  }
-  header {
-    width: 1335px;
-  }
-}
-@media screen and (max-width: 1290px) {
-  .input {
-    width: 550px;
-    border-radius: 10px;
-    font-size: 19px;
-    background-color: rgb(183, 180, 190);
-  }
-  .wrapper {
-    justify-content: center;
-    justify-content: space-between;
-    align-items: center;
-    row-gap: 30px;
-    gap: 10px;
-  }
-}
-@media screen and (max-width: 1240px) {
-  .wrapper {
-    width: 70%;
-  }
 }
