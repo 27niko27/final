@@ -94,6 +94,24 @@ img:hover {
   -webkit-transform: scale(1.1); /* Safari 3-8 */
   transform: scale(1.1);
 }
+details {
+  cursor: pointer;
+  width: 1400px;
+}
+.egi {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.ppp {
+  color: #ffffff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 
 .ss {
   display: flex;
